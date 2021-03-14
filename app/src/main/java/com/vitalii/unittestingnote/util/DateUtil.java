@@ -22,10 +22,7 @@ public class DateUtil {
         }
     }
 
-    // ОБЯЗАТЕЛЬНО ПОМЕНЯТЬ!!!!!!!!
     public static String getMonthFromNumber(String monthNumber){
-        //int m = Integer.valueOf(monthNumber);
-        //return months[m+1];
         switch(monthNumber){
             case "01":{
                 return months[0];
